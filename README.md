@@ -1,17 +1,44 @@
-# task_app
+# Task Manager Flutter App
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+A Task Management app built using Flutter with clean UI and complete functionality.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+* Create, Read, Update, Delete tasks
+* Task dependency (Blocked By)
+* Greyed-out UI for blocked tasks
+* Search tasks (debounced)
+* Filter by status
+* Draft saving
+* 2-second loading delay with loader
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Flutter (Dart)
+* Local state management
+
+## How to Run
+
+1. Install Flutter
+2. Run `flutter pub get`
+3. Run `flutter run`
+
+## Track
+
+Track B: Mobile Specialist
+
+## Stretch Goal
+
+Debounced Search implemented
+
+## AI Usage
+
+Used ChatGPT for:
+
+* Debugging Flutter setup
+* UI improvements
+* Implementing task dependency logic
+* Fixing emulator issues
+
